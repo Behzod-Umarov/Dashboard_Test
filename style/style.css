@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {  
+    font-family: 'Poppins';
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.left-panel {
+    width: 345px;
+    height: 1311px;
+    padding: 50px 43px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: scroll;
+}
+
+.right-panel {
+    margin-left: 345px; /* Chap panel kengligiga moslab keladi */
+}
+
+.logo {
+    margin-bottom: 30px;
+}
+
+.brand-name {
+    display: block;
+    margin-top: 24px;
+}
+
+.dashboard-info {
+    padding: 16px 24px;
+    margin-bottom: 30px;
+}
+
+.additional-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+header {
+    width: 1575px;
+    height: 120px;
+    padding: 35px 42px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    width: 202px;
+    margin-right: 42px;
+}
+
+.language-selector select {
+    width: 150px;
+    height: 30px;
+}
+
+main {
+    padding: 20px;
+}
+
+.content {
+    width: 100%;
+}
